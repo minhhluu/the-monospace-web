@@ -2,323 +2,118 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="Oskar Wickström" />
-  <title>The Monospace Web</title>
+  <meta name="author" content="Minh Luu" />
+  <title>Minh Luu - About me</title>
   <link rel="stylesheet" href="src/reset.css" />
   <link rel="stylesheet" href="src/index.css" />
 </head>
 <body>
+
 <table class="header">
   <tr>
     <td colspan="2" rowspan="2" class="width-auto">
-      <h1 class="title">The Monospace Web</h1>
-      <span class="subtitle">A minimalist design exploration</span>
+      <h1 class="title">Minh Luu</h1>
+      <span class="subtitle">Digital IC & RTL Design | Embedded Linux • SoC | FPGA</span>
     </td>
     <th>Version</th>
-    <td class="width-min">v0.1.5</td>
+    <td class="width-min">v1.0</td>
   </tr>
   <tr>
     <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">2025-01-25</time></td>
+    <td class="width-min"><time style="white-space: pre;">2025-07</time></td>
   </tr>
   <tr>
-    <th class="width-min">Author</th>
-    <td class="width-auto"><a href="https://wickstrom.tech"><cite>Oskar
-Wickström</cite></a></td>
-    <th class="width-min">License</th>
-    <td>MIT</td>
+    <th class="width-min">Contact</th>
+    <td class="width-auto">minhluu2711@gmail.com • github.com/minhhluu</td>
+    <th class="width-min">Location</th>
+    <td>Vietnam</td>
   </tr>
 </table>
-<label class="debug-toggle-label"><input type="checkbox" class="debug-toggle" /> Debug mode</label>
+
 <nav id="TOC" role="doc-toc">
 <h2 id="toc-title">Contents</h2>
 <ul class="incremental">
-<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
-<li><a href="#the-basics" id="toc-the-basics">The Basics</a></li>
-<li><a href="#lists" id="toc-lists">Lists</a></li>
-<li><a href="#tables" id="toc-tables">Tables</a></li>
-<li><a href="#forms" id="toc-forms">Forms</a></li>
-<li><a href="#grids" id="toc-grids">Grids</a></li>
-<li><a href="#ascii-drawings" id="toc-ascii-drawings">ASCII
-Drawings</a></li>
-<li><a href="#media" id="toc-media">Media</a></li>
-<li><a href="#discussion" id="toc-discussion">Discussion</a></li>
+  <li><a href="#summary">Summary</a></li>
+  <li><a href="#skills">Technical Skills</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#education">Education</a></li>
 </ul>
 </nav>
-<h2 id="introduction">Introduction</h2>
-<p>Monospace fonts are dear to many of us. Some find them more readable,
-consistent, and beautiful, than their proportional alternatives. Maybe
-we’re just brainwashed from spending years in terminals? Or are we
-hopelessly nostalgic? I’m not sure. But I like them, and that’s why I
-started experimenting with all-monospace Web.</p>
-<p>On this page, I use a monospace grid to align text and draw diagrams.
-It’s generated from a simple Markdown document (using Pandoc), and the
-CSS and a tiny bit of Javascript renders it on the grid. The page is
-responsive, shrinking in character-sized steps. Standard elements should
-<em>just work</em>, at least that’s the goal. It’s semantic HTML,
-rendered as if we were back in the 70s.</p>
-<p>All right, but is this even a good idea? It’s a technical and
-creative challenge and I like the aestethic. If you’d like to use it,
-feel free to fork or copy the bits you need, respecting the license. I
-might update it over time with improvements and support for more
-standard elements.</p>
-<h2 id="the-basics">The Basics</h2>
-<p>This document uses a few extra classes here and there, but mostly
-it’s just markup. This, for instance, is a regular paragraph.</p>
-<p>Look at this horizontal break:</p>
-<hr>
-<p>Lovely. We can hide stuff in the <code>&lt;details</code>&gt;
-element:</p>
-<details>
-<summary>
-A short summary of the contents
-</summary>
-<p>
-Hidden gems.
-</p>
-</details>
-<h2 id="lists">Lists</h2>
-<p>This is a plain old bulleted list:</p>
+
+<h2 id="summary">Summary</h2>
+<p>Hardware Systems Engineer with hands-on experience in analog simulation, Verilog RTL design, and FPGA prototyping. 
+  Enjoys building complete systems from transistor-level layouts to integrating digital IP. Skilled in C, Verilog, and familiar with standard EDA tools.</p>
+
+<h2 id="skills">Technical Skills</h2>
 <ul class="incremental">
-<li>Banana</li>
-<li>Paper boat</li>
-<li>Cucumber</li>
-<li>Rocket</li>
+  <li>Languages: Verilog, C, Assembly, Python</li>
+  <li>Tools: LTSpice, Microwind, GTKWave, Quartus, Vivado, Scilab</li>
+  <li>Design Areas: RTL Design, Analog Simulation, FPGA Prototyping, Digital Layout</li>
+  <li>Boards: Altera DE2, Zynq-7000</li>
 </ul>
-<p>Ordered lists look pretty much as you’d expect:</p>
-<ol class="incremental" type="1">
-<li>Goals</li>
-<li>Motivations
-<ol class="incremental" type="1">
-<li>Intrinsic</li>
-<li>Extrinsic</li>
-</ol></li>
-<li>Second-order effects</li>
-</ol>
-<p>It’s nice to visualize trees. This is a regular unordered list with a
-<code>tree</code> class:</p>
-<ul class="tree">
-<li>
-<p style="margin: 0;">
-<strong>/dev/nvme0n1p2</strong>
-</p>
+
+<h2 id="projects">Projects</h2> 
 <ul class="incremental">
-<li>usr
-<ul class="incremental">
-<li>local<br />
-</li>
-<li>share<br />
-</li>
-<li>libexec<br />
-</li>
-<li>include<br />
-</li>
-<li>sbin<br />
-</li>
-<li>src<br />
-</li>
-<li>lib64<br />
-</li>
-<li>lib<br />
-</li>
-<li>bin<br />
-</li>
-<li>games
-<ul class="incremental">
-<li>solitaire</li>
-<li>snake</li>
-<li>tic-tac-toe</li>
-</ul></li>
-<li>media<br />
-</li>
-</ul></li>
-<li>media<br />
-</li>
-<li>run<br />
-</li>
-<li>tmp</li>
+  <li><strong>4-bit ALU in Verilog (Vivado, GTKWave)</strong><br/>Designed and verified a modular ALU supporting ADD, SUB, AND, OR operations. Simulated waveforms and deployed on Basys3 Xilinx board.</li>
+  <li><strong>Serial Protocols: I2C, UART, 1-Wire & FSM Control (Verilog)</strong><br/>Integrated with temperature sensors and LCD, deployed on Altera DE2 FPGA.</li>
+  <li><strong>Signal Modulation Techniques (SciLab)</strong><br/>Explored and simulated <strong>Analog, Frequency, and Digital Modulation</strong> schemes using SciLab. Demonstrated signal transformation and spectrum analysis.</li>
+  <li><strong>Op-Amp Band-Pass Filter (LTSpice)</strong><br/>Designed and simulated active filter using 741 Op-Amp. Verified frequency response via AC analysis.</li>
+  <li><strong>6T SRAM Cell Design (LTSpice)</strong><br/>Simulated stability and performance of 6T SRAM under read/write operations.</li>
+  <li><strong>CMOS NAND/NOR, Half-Adder Layout (Microwind)</strong><br/>Created layout and analyzed sizing, area, and logical correctness.</li>
+  <li><strong>8086-microprocessor Assembly Programming</strong><br/>Wrote 8-bit multiplication, 16-bit addition/subtraction routines using registers and memory.</li>
+  <li><strong>RFID-RC522 & PWM Servo Module Integration</strong><br/>Designed a toll station management system using the RFID-RC522 module on ESP32, programmed via Arduino IDE. Data was transmitted to the cloud using the Blynk IoT platform.</li>
 </ul>
-</li>
+
+<h2 id="education">Education</h2>
+
+<p><strong>B.Eng in Chip Design – FPT University</strong></p>
+
+<h3>Semester 1: Foundations & Programming Integration – GPA 3.5/4.0</h3>
+<ul class="incremental">
+  <li>Hardware programming using <strong>C</strong> and <strong>8086 Assembly</strong></li>
+  <li>Core knowledge of automation and embedded systems</li>
+  <li>Digital & analog circuit fundamentals: ROM, RAM, Flip-Flops (SR, JK, D, T)</li>
+  <li>Introduction to EDA tools: <strong>LTSpice, Proteus</strong></li>
 </ul>
-<h2 id="tables">Tables</h2>
-<p>We can use regular tables that automatically adjust to the monospace
-grid. They’re responsive.</p>
-<table>
-<thead>
-<tr>
-<th class="width-min">
-Name
-</th>
-<th class="width-auto">
-Dimensions
-</th>
-<th class="width-min">
-Position
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-Boboli Obelisk
-</td>
-<td>
-1.41m × 1.41m × 4.87m
-</td>
-<td>
-43°45’50.78”N 11°15’3.34”E
-</td>
-</tr>
-<tr>
-<td>
-Pyramid of Khafre
-</td>
-<td>
-215.25m × 215.25m × 136.4m
-</td>
-<td>
-29°58’34”N 31°07’51”E
-</td>
-</tr>
-</tbody>
-</table>
-<p>Note that only one column is allowed to grow.</p>
-<h2 id="forms">Forms</h2>
-<p>Here are some buttons:</p>
-<nav>
-<button>
-Reset
-</button>
-<button>
-Save
-</button>
-</nav>
-<p>And inputs:</p>
-<form class="grid">
-<label>First name
-<input type="text" placeholder="Placeholder..." /></label> <label>Last
-name <input type="text" placeholder="Text goes here..." /></label>
-<label>Age <input type="text" value="30" /></label>
-</form>
-<p>And radio buttons:</p>
-<form class="grid">
-<label><input name="radio" type="radio" /> Option #1</label>
-<label><input name="radio" type="radio" /> Option #2</label>
-<label><input name="radio" type="radio" /> Option #3</label>
-</form>
-<h2 id="grids">Grids</h2>
-<p>Add the <code>grid</code> class to a container to divide up the
-horizontal space evenly for the cells. Note that it maintains the
-monospace, so the total width might not be 100%. Here are six grids with
-increasing cell count:</p>
-<div class="grid">
-<input readonly value="1" />
-</div>
-<div class="grid">
-<input readonly value="1" /><input readonly value="2" />
-</div>
-<div class="grid">
-<input readonly value="1" /><input readonly value="2" /><input readonly value="3" />
-</div>
-<div class="grid">
-<input readonly value="1" /><input readonly value="2" /><input readonly value="3" /><input readonly value="4" />
-</div>
-<div class="grid">
-<input readonly value="1" /><input readonly value="2" /><input readonly value="3" /><input readonly value="4" /><input readonly value="5" />
-</div>
-<div class="grid">
-<input readonly value="1" /><input readonly value="2" /><input readonly value="3" /><input readonly value="4" /><input readonly value="5" /><input readonly value="6" />
-</div>
-<p>If we want one cell to fill the remainder, we set
-<code>flex-grow: 1;</code> for that particular cell.</p>
-<div class="grid">
-<input readonly value="1" /><input readonly value="2" /><input readonly value="3!" style="flex-grow: 1;" /><input readonly value="4" /><input readonly value="5" /><input readonly value="6" />
-</div>
-<h2 id="ascii-drawings">ASCII Drawings</h2>
-<p>We can draw in <code>&lt;pre&gt;</code> tags using <a
-href="https://en.wikipedia.org/wiki/Box-drawing_characters">box-drawing
-characters</a>:</p>
-<pre><code>╭─────────────────╮
-│ MONOSPACE ROCKS │
-╰─────────────────╯</code></pre>
-<p>To have it stand out a bit more, we can wrap it in a
-<code>&lt;figure&gt;</code> tag, and why not also add a
-<code>&lt;figcaption&gt;</code>.</p>
-<figure>
+
+<h3>Semester 2: Systems & RTL Design – GPA 3.72/4.0</h3>
+<ul class="incremental">
+  <li>Designed and simulated a <strong>4-bit ALU</strong> from scratch (Verilog)</li>
+  <li>Implemented <strong>I2C, UART, 1-Wire</strong> communication on FPGA (Zynq-7000)</li>
+  <li>Simulated <strong>6T SRAM cells</strong> and op-amp filters in LTSpice</li>
+  <li>Created CMOS <strong>NAND, NOR, MUX, Half-Adder</strong> layouts in Microwind</li>
+  <li>RTL design and integration using <strong>Vivado, Verilog</strong></li>
+</ul>
+</br>
+<strong># life x tech abstract</strong>
+
+
 <pre>
-┌───────┐ ┌───────┐ ┌───────┐
-│Actor 1│ │Actor 2│ │Actor 3│
-└───┬───┘ └───┬───┘ └───┬───┘
-    │         │         │    
-    │         │  msg 1  │    
-    │         │────────►│    
-    │         │         │    
-    │  msg 2  │         │    
-    │────────►│         │    
-┌───┴───┐ ┌───┴───┐ ┌───┴───┐
-│Actor 1│ │Actor 2│ │Actor 3│
-└───────┘ └───────┘ └───────┘</pre>
-<figcaption>
-Example: Message passing.
-</figcaption>
-</figure>
-<p>Let’s go wild and draw a chart!</p>
-<figure>
-<pre>
-                      Things I Have
-                                              
-    │                                     ████ Usable
-15  │
-    │                                     ░░░░ Broken
-    │
-12  │             ░            
-    │             ░            
-    │   ░         ░              
- 9  │   ░         ░              
-    │   ░         ░              
-    │   ░         ░                    ░
- 6  │   █         ░         ░          ░
-    │   █         ░         ░          ░
-    │   █         ░         █          ░
- 3  │   █         █         █          ░
-    │   █         █         █          ░
-    │   █         █         █          ░
- 0  └───▀─────────▀─────────▀──────────▀─────────────
-      Socks     Jeans     Shirts   USB Drives
+</br>
+█▀▀ █▀▀ █░█ █▀█   █░░ █▀█ █▀▀ █ █▀▀
+██▄ █▄▄ █▀█ █▄█   █▄▄ █▄█ █▄█ █ █▄▄
+  ──┬──
+    │                       tech                ┌─────────────────┐
+    │                       ┌─────────────────► │░░░░░░░░░░░░░░░░░│
+┌───┴────┐   act      ╭─────┴─────╮             │░░░░░░░░░░░░░░░░░│
+│  Mind  │──────────► │  Science  │             │░░░░░░░░░░░░░░░░░│
+└────────┘            ╰───────────╯             │░ Logic░░░░░░░░░░│
+    │                       clarity             │░░░░░░░░░░░░░░░░░│
+    │                       ┌─────────────────► │░░░ xStructure ░░│
+┌───┴────┐   act      ╭─────┴─────╮             │░░░░░░░░░░░░░░░░░│
+│  Body  │──────────► │  Rhythm   │             │░░░░░░░Intuition░│
+└────────┘            ╰───────────╯             │░░░░░░░░░░░░░░░░░│
+    │                       embodiment          │░░░░░░░░░░░░░░░░░│
+    │                       ┌─────────────────► │░░░░░░░░░░░░░░░░░│
+┌───┴────┐   act      ╭─────┴─────╮             └─────────────────┘
+│  Soul  │──────────► │    Art    │
+└────────┘            ╰───────────╯ 
 </pre>
-</figure>
-<h2 id="media">Media</h2>
-<p>Media objects are supported, like images and video:</p>
-<figure>
-<img src="castle.jpg" alt="A room in an old French castle (2024)" />
-<figcaption aria-hidden="true">A room in an old French castle
-(2024)</figcaption>
-</figure>
-<figure>
-<video
-src="https://upload.wikimedia.org/wikipedia/commons/e/e0/The_Center_of_the_Web_%281914%29.webm"
-controls=""><a
-href="https://upload.wikimedia.org/wikipedia/commons/e/e0/The_Center_of_the_Web_%281914%29.webm">The
-Center of the Web (1914), Wikimedia</a></video>
-<figcaption aria-hidden="true"><a
-href="https://en.wikisource.org/wiki/Page:The_Center_of_the_Web_(1914).webm/11">The
-Center of the Web (1914), Wikimedia</a></figcaption>
-</figure>
-<p>They extend to the width of the page, and add appropriate padding in
-the bottom to maintain the monospace grid.</p>
-<h2 id="discussion">Discussion</h2>
-<p>That’s it for now. I’ve very much enjoyed making this, pushing my CSS
-chops and having a lot of fun with the design. If you like it or even
-decide to use it, please <a href="https://x.com/owickstrom">let me
-know</a>.</p>
-<p>The full source code is here: <a
-href="https://github.com/owickstrom/the-monospace-web">github.com/owickstrom/the-monospace-web</a></p>
-<p>Finally, a massive shout-out to <a
-href="https://x.com/usgraphics">U.S. Graphics Company</a> for all the
-inspiration.</p>
-  <div class="debug-grid"></div>
-  <script src="src/index.js"></script>
+
+<hr>
+© 2025 Minh Luu
+<p> The Monospace Web by <a href="https://github.com/owickstrom/the-monospace-web">Oskar Wickström</a></p>
+
 </body>
 </html>
